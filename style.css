@@ -71,3 +71,49 @@ img {
 .clear {
   clear: both;
 }
+/* PARTE RESPONSIVE ---------------------------------------------------*/
+@media screen and (max-width: 419px){
+  .row{
+    max-width: 50%;
+    background-color: red;
+    font-size: 11px;
+
+  }
+  .left img{
+    height: 5%;
+    width: 55%;
+  }
+  .right img{
+    height: 5%;
+    width: 55%;
+  }
+  .left{
+    font-size: 11px;
+  }
+
+}
+@media screen and (max-width: 419px){
+  .central img{
+    height: 5%;
+    width: 55%;
+  }
+}
+@media screen and (max-width: 419px){
+  .first img{
+    height: 5%;
+    width: 55%;
+  }
+}
+@media screen and (max-width: 419px){
+  .second img{
+    height: 5%;
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 419px){
+  .third img{
+    height: 5%;
+    width: 55%;
+  }
+}
