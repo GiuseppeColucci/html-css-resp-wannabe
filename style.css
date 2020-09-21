@@ -73,47 +73,31 @@ img {
 }
 /* PARTE RESPONSIVE ---------------------------------------------------*/
 @media screen and (max-width: 419px){
-  .row{
-    max-width: 50%;
-    background-color: red;
-    font-size: 11px;
+  .row {
+    width: 50%;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+    float: none;
+  }
+  @media screen and (max-width: 419px){
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: none;
+      width: 33%;
+      text-align: center;
+    }
+    #lezioni .row img{
+      font-size: 50%
+    }
 
   }
-  .left img{
-    height: 5%;
-    width: 55%;
+  @media screen and (max-width: 419px){
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 50%;
+      margin-top: 80px;
   }
-  .right img{
-    height: 5%;
-    width: 55%;
-  }
-  .left{
-    font-size: 11px;
-  }
-
-}
-@media screen and (max-width: 419px){
-  .central img{
-    height: 5%;
-    width: 55%;
-  }
-}
-@media screen and (max-width: 419px){
-  .first img{
-    height: 5%;
-    width: 55%;
-  }
-}
-@media screen and (max-width: 419px){
-  .second img{
-    height: 5%;
-    width: 55%;
-  }
-}
-
-@media screen and (max-width: 419px){
-  .third img{
-    height: 5%;
-    width: 55%;
-  }
-}
